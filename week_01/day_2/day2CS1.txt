@@ -1,0 +1,29 @@
+### FSD.CMD.1.1
+
+Display the current date in UTC (Coordinated Universal) time
+
+ans Sun May 17 06:07:12 UTC 2020
+
+
+### FSD.CMD.1.2
+
+Display the calender for the year you were born
+
+ans  cal 1995
+
+### FSD.CMD.1.3
+
+Display the amount of free space on your computer in human readable format in MB and GB
+
+
+ans   df -h
+
+### FSD.CMD.1.4
+
+Display the free ram on your system in MB (NOTE: Mac users can skip this problem)
+
+
+ans  free -m
+
+
+
