@@ -26,4 +26,28 @@ Display the free ram on your system in MB (NOTE: Mac users can skip this problem
 ans  free -m
 
 
+###FSD.CMD.1.5
+
+ Restart your shell/terminal and print the working directory
+ 
+ ans pwd
+
+   /home/snehal
+
+### FSD.CMD.1.6
+
+Download the file <https://raw.githubusercontent.com/masai-school/assignments-data/master/data/lists/countries.csv> and navigate through it using
+
+ans  wget https://raw.githubusercontent.com/masai-school/assignments-data/master/data/lists/countries.csv
+--2020-05-18 18:15:18--  https://raw.githubusercontent.com/masai-school/assignments-data/master/data/lists/countries.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.152.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.152.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3670 (3.6K) [text/plain]
+Saving to: ‘countries.csv’
+
+countries.csv                             100%[=====================================================================================>]   3.58K  --.-KB/s    in 0.1s    
+
+2020-05-18 18:15:20 (26.0 KB/s) - ‘countries.csv’ saved [3670/3670]
+ 
 
