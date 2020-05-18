@@ -51,3 +51,199 @@ countries.csv                             100%[=================================
 2020-05-18 18:15:20 (26.0 KB/s) - ‘countries.csv’ saved [3670/3670]
  
 
+### FSD.CMD.1.7
+
+Create a folder called `practise` in your home directory and then create the below folders inside the `practise` folder
+
+1. a folder named `movies` with 4 folders inside it with the names `english` `hindi` `french` `chinese`
+2. a folder named `songs` with 3 folders inside it with the names `tamil` `kannada` `urdu`
+3. a folder named `books` with 4 folders inside it with the names `english` `hindi` `french` `chinese`
+4. A folder named `epsilon` inside `delta` which is inside `gamma` which is inside `beta` which is inside `alpha`
+
+ans  snehal@snehal-VirtualBox:~$ mkdir practices
+snehal@snehal-VirtualBox:~$ cd practices/
+snehal@snehal-VirtualBox:~/practices$ ls
+snehal@snehal-VirtualBox:~/practices$ mkdir movies songs books epilson
+snehal@snehal-VirtualBox:~/practices$ ls
+books  epilson  movies  songs
+snehal@snehal-VirtualBox:~/practices$ cd movies/
+snehal@snehal-VirtualBox:~/practices/movies$ ls
+snehal@snehal-VirtualBox:~/practices/movies$ mkdir english hindi french chinese
+snehal@snehal-VirtualBox:~/practices/movies$ ls
+chinese  english  french  hindi
+snehal@snehal-VirtualBox:~/practices/movies$ cd ..
+snehal@snehal-VirtualBox:~/practices$ ls
+books  epilson  movies  songs
+snehal@snehal-VirtualBox:~/practices$ cd songs/
+snehal@snehal-VirtualBox:~/practices/songs$ ls
+snehal@snehal-VirtualBox:~/practices/songs$ mkdir tamil kannada urdu
+snehal@snehal-VirtualBox:~/practices/songs$ ls
+kannada  tamil  urdu
+snehal@snehal-VirtualBox:~/practices/songs$ cd ..
+snehal@snehal-VirtualBox:~/practices$ ls
+books  epilson  movies  songs
+snehal@snehal-VirtualBox:~/practices$ cd books/
+snehal@snehal-VirtualBox:~/practices/books$ ls
+snehal@snehal-VirtualBox:~/practices/books$ mkdir english hindi french chinese
+snehal@snehal-VirtualBox:~/practices/books$ ls
+chinese  english  french  hindi
+snehal@snehal-VirtualBox:~/practices/books$ cd ..
+snehal@snehal-VirtualBox:~/practices$ ls
+books  epilson  movies  songs
+snehal@snehal-VirtualBox:~/practices$ cd epilson/
+snehal@snehal-VirtualBox:~/practices/epilson$ ls
+snehal@snehal-VirtualBox:~/practices/epilson$ mkdir delta
+snehal@snehal-VirtualBox:~/practices/epilson$ ls
+delta
+snehal@snehal-VirtualBox:~/practices/epilson$ cd delta/
+snehal@snehal-VirtualBox:~/practices/epilson/delta$ ls
+snehal@snehal-VirtualBox:~/practices/epilson/delta$ mkdir gamma
+snehal@snehal-VirtualBox:~/practices/epilson/delta$ ls
+gamma
+snehal@snehal-VirtualBox:~/practices/epilson/delta$ cd gamma/
+snehal@snehal-VirtualBox:~/practices/epilson/delta/gamma$ ls
+snehal@snehal-VirtualBox:~/practices/epilson/delta/gamma$ mkdir beta
+snehal@snehal-VirtualBox:~/practices/epilson/delta/gamma$ ls
+beta
+snehal@snehal-VirtualBox:~/practices/epilson/delta/gamma$ cd beta/
+snehal@snehal-VirtualBox:~/practices/epilson/delta/gamma/beta$ mkdir alpha
+snehal@snehal-VirtualBox:~/practices/epilson/delta/gamma/beta$ ls
+alpha
+snehal@snehal-VirtualBox:~/practices/epilson/delta/gamma/beta$ cd alpha/
+snehal@snehal-VirtualBox:~/practices/epilson/delta/gamma/beta/alpha$ ls
+snehal@snehal-VirtualBox:~/practices/epilson/delta/gamma/beta/alpha$ 
+
+
+### FSD.CMD.1.8
+
+Download and unzip the file https://github.com/masai-school/assignments-data/raw/master/downloads/course.zip in your home directory and navig>
+
+ans  wget https://github.com/masai-school/assignments-data/raw/master/downloads/course.zip 
+--2020-05-18 18:46:17--  https://github.com/masai-school/assignments-data/raw/master/downloads/course.zip
+Resolving github.com (github.com)... 13.234.210.38
+Connecting to github.com (github.com)|13.234.210.38|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/masai-school/assignments-data/master/downloads/course.zip [following]
+--2020-05-18 18:46:20--  https://raw.githubusercontent.com/masai-school/assignments-data/master/downloads/course.zip
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.152.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.152.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10164 (9.9K) [application/zip]
+Saving to: ‘course.zip’
+
+course.zip                          100%[=================================================================>]   9.93K  27.5KB/s    in 0.4s    
+
+2020-05-18 18:46:22 (27.5 KB/s) - ‘course.zip’ saved [10164
+
+unzip course.zip
+Archive:  course.zip
+   creating: course/
+   creating: course/week_2/
+   creating: course/week_2/day_3/
+ extracting: course/week_2/day_3/w3_d3_s2.txt  
+ extracting: course/week_2/day_3/w3_d3_s1.txt  
+   creating: course/week_2/day_5/
+ extracting: course/week_2/day_5/w2_d5_s1.txt  
+ extracting: course/week_2/day_5/w2_d5_s2.txt  
+   creating: course/week_2/day_2/
+ extracting: course/week_2/day_2/w2_d2_s1.txt  
+ extracting: course/week_2/day_2/w2_d2_s2.txt  
+   creating: course/week_2/day-4/
+ extracting: course/week_2/day-4/w2_d4_s2.txt  
+ extracting: course/week_2/day-4/w2_d4_s1.txt  
+   creating: course/week_2/day_1/
+ extracting: course/week_2/day_1/w2_d1_s1.txt  
+ extracting: course/week_2/day_1/w2_d1_s2.txt  
+   creating: course/all/
+ extracting: course/all/w1_d1_s1.txt  
+ extracting: course/all/overall.txt  
+ extracting: course/all/w1_d1_s2.txt  
+ extracting: course/all/w2_d4_s2.txt  
+ extracting: course/all/w1_d3_s2.txt  
+ extracting: course/all/w2_d4_s1.txt  
+ extracting: course/all/w1_d3_s1.txt  
+ extracting: course/all/w1_d5_s1.txt  
+ extracting: course/all/w2_d2_s1.txt  
+ extracting: course/all/w1_d5_s2.txt  
+ extracting: course/all/w2_d2_s2.txt  
+ extracting: course/all/w1_d2_s1.txt  
+ extracting: course/all/w3_d3_s2.txt  
+ extracting: course/all/w2_d5_s1.txt  
+ extracting: course/all/w1_d2_s2.txt  
+ extracting: course/all/w3_d3_s1.txt  
+ extracting: course/all/w2_d5_s2.txt  
+ extracting: course/all/w2_d1_s1.txt  
+ extracting: course/all/w2_d1_s2.txt  
+ extracting: course/all/w1_d4_s2.txt  
+ extracting: course/all/w1_d4_s1.txt  
+   creating: course/week_1/
+   creating: course/week_1/day_3/
+ extracting: course/week_1/day_3/w1_d3_s2.txt  
+ extracting: course/week_1/day_3/w1_d3_s1.txt  
+   creating: course/week_1/day_4/
+ extracting: course/week_1/day_4/w1_d4_s2.txt  
+ extracting: course/week_1/day_4/w1_d4_s1.txt  
+   creating: course/week_1/day_5/
+ extracting: course/week_1/day_5/w1_d5_s1.txt  
+ extracting: course/week_1/day_5/w1_d5_s2.txt  
+   creating: course/week_1/day_2/
+ extracting: course/week_1/day_2/w1_d2_s1.txt  
+ extracting: course/week_1/day_2/w1_d2_s2.txt  
+   creating: course/week_1/.day_6/
+   creating: course/week_1/day_1/
+ extracting: course/week_1/day_1/w1_d1_s1.txt  
+ extracting: course/week_1/day_1/w1_d1_s2.txt  
+ extracting: course/week_1/day_1/.w1_d1_sol.txt 
+
+### FSD.CMD.1.9
+
+Do the below set of listing operations
+
+1. List all the files and folders inside the `course` folder
+2. Go to the `day_1` folder `week_1` and check if there are any hidden files in that folder
+3. List all the files and folders in a recursively including the hidden folders inside `week_1`
+4. List all the files in the `all` folder along with their modified time in the ascending order of the modified times (oldest first newest la
+
+ans 1.  cd course/
+snehal@snehal-VirtualBox:~/course$ ls
+all  week_1  week_2
+snehal@snehal-VirtualBox:~/course$ cd all
+snehal@snehal-VirtualBox:~/course/all$ ls
+overall.txt   w1_d2_s1.txt  w1_d3_s2.txt  w1_d5_s1.txt  w2_d1_s2.txt  w2_d4_s1.txt  w2_d5_s2.txt
+w1_d1_s1.txt  w1_d2_s2.txt  w1_d4_s1.txt  w1_d5_s2.txt  w2_d2_s1.txt  w2_d4_s2.txt  w3_d3_s1.txt
+w1_d1_s2.txt  w1_d3_s1.txt  w1_d4_s2.txt  w2_d1_s1.txt  w2_d2_s2.txt  w2_d5_s1.txt  w3_d3_s2.txt
+
+2. snehal@snehal-VirtualBox:~$ cd course/
+snehal@snehal-VirtualBox:~/course$ ls
+all  week_1  week_2
+snehal@snehal-VirtualBox:~/course$ cd all
+snehal@snehal-VirtualBox:~/course/all$ ls
+overall.txt   w1_d2_s1.txt  w1_d3_s2.txt  w1_d5_s1.txt  w2_d1_s2.txt  w2_d4_s1.txt  w2_d5_s2.txt
+w1_d1_s1.txt  w1_d2_s2.txt  w1_d4_s1.txt  w1_d5_s2.txt  w2_d2_s1.txt  w2_d4_s2.txt  w3_d3_s1.txt
+w1_d1_s2.txt  w1_d3_s1.txt  w1_d4_s2.txt  w2_d1_s1.txt  w2_d2_s2.txt  w2_d5_s1.txt  w3_d3_s2.txt
+snehal@snehal-VirtualBox:~/course/all$ cd ..
+snehal@snehal-VirtualBox:~/course$ ls
+all  week_1  week_2
+snehal@snehal-VirtualBox:~/course$ cd week_1
+snehal@snehal-VirtualBox:~/course/week_1$ ls
+day_1  day_2  day_3  day_4  day_5
+snehal@snehal-VirtualBox:~/course/week_1$ c day_1
+c: command not found
+snehal@snehal-VirtualBox:~/course/week_1$ cd day_1
+snehal@snehal-VirtualBox:~/course/week_1/day_1$ ls
+w1_d1_s1.txt  w1_d1_s2.txt
+snehal@snehal-VirtualBox:~/course/week_1/day_1$ ls -a
+.  ..  w1_d1_s1.txt  w1_d1_s2.txt  .w1_d1_sol.txt
+snehal@snehal-VirtualBox:~/course/week_1/day_1$ 
+
+3. ls -R
+.:
+w1_d1_s1.txt  w1_d1_s2.txt
+
+4. cd all/
+snehal@snehal-VirtualBox:~/course/all$ ls -s
+total 0
+0 overall.txt   0 w1_d2_s1.txt  0 w1_d3_s2.txt  0 w1_d5_s1.txt  0 w2_d1_s2.txt  0 w2_d4_s1.txt  0 w2_d5_s2.txt
+0 w1_d1_s1.txt  0 w1_d2_s2.txt  0 w1_d4_s1.txt  0 w1_d5_s2.txt  0 w2_d2_s1.txt  0 w2_d4_s2.txt  0 w3_d3_s1.txt
+0 w1_d1_s2.txt  0 w1_d3_s1.txt  0 w1_d4_s2.txt  0 w2_d1_s1.txt  0 w2_d2_s2.txt  0 w2_d5_s1.txt  0 w3_d3_s2.txt
+
