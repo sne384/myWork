@@ -1,0 +1,71 @@
+### FSD.GIT.1.1
+
+Setup your name and email using the `git config` command.
+
+ans git config --global user.name 
+    snehal
+    git config --global user.email 
+    snehalbhagat411@gmail.com
+
+## 3FSD.GIT.1.2
+
+- Go to your home directory `cd ~` and create a folder called `repos`
+- Create a folder called `test` inside `repos` folder
+- Navigate to `test` folder
+- Initialise `test` folder with an empty repository
+
+ans * cd ~
+     mkdir repos
+     ls
+    a  aaa  countries.csv  course  course.zip  masai  masai1  practices  project  project2  repos  team  test
+
+   * mkdir test
+     ls
+    test
+  
+   *git init
+   Initialized empty Git repository in /home/snehal/repos/.git/
+
+### FSD.GIT.1.3
+
+- Create a file called `start`  inside `test` folder with the current `date` (HINT COMMAND:  `date > start`)
+- Add the file `start` to `git` (HINT: use `git add` command)
+- Check the status of the `start` file using `git status` command
+- Commit the changes to `git` with the message "Start Time" (HINT: use `git commit` command)
+
+ans   cd test/
+      touch 'date > start.txt'
+      ls
+      'date > start.txt'
+
+
+     git add date\ \>\ start.txt 
+      ls
+     'date > start.txt'
+ 
+
+      git status date\ \>\ start.txt 
+      On branch master
+
+      No commits yet
+
+      Changes to be committed:
+      (use "git rm --cached <file>..." to unstage)
+
+	new file:   date > start.txt
+
+      git commit -m "Start Time"
+      [master (root-commit) 07401e4] Start Time
+      1 file changed, 0 insertions(+), 0 deletions(-)
+      create mode 100644 test/date > start.txt
+
+
+### FSD.GIT.1.4
+
+- Go to http://github.com and create a new repository called `test` (**NOTE**: Don't tick the option Initialize this repository with a README)
+- Add the newly created repository as remote to git repo in `test` folder (HINT: use `git remote` command)
+- Sync the local commit to the remote repo (HINT: use `git push` command)
+- Go to the repo page on http://github.com and see if you can see the start file in the repository
+
+
+ans   
